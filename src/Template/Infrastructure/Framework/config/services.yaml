@@ -1,0 +1,4 @@
+services:
+    Template/Application/Query/Test/GetById/GetTestByIdQueryHandler:
+        tags:
+            - { name: messenger.message_handler }

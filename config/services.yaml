@@ -16,5 +16,10 @@ services:
     App\:
         resource: '../src/'
 
+    App\Template\Application\Query\Test\GetById\GetTestByIdQueryHandler:
+        tags:
+            - { name: messenger.message_handler }
+
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

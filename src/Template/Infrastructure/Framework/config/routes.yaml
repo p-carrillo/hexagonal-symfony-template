@@ -1,0 +1,3 @@
+controllers:
+    resource: '../../UI/http/controller/'
+    type: attribute
